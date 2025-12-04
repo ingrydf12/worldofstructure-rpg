@@ -1,0 +1,16 @@
+
+{
+  "name": "tormproject",
+  "version": "1.0.0",
+  "description": "A Terminal RPG with interface - Data Structures",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ingryd Duarte",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^39.2.5"
+  }
+}
