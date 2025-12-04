@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class_torm_types = [warrior: 'Warrior', archer: 'Archer', magician: 'Magician'];
+class_torm_types = {'warrior':'Guerreiro', 'archer':'Atirador', 'magician':'Mago'};
 
 @abstractmethod
 class Skeleton(ABC):
