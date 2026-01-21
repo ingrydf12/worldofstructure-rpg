@@ -9,7 +9,7 @@ O projeto é um protótipo de um RPG de turno, usando elementos de Tormenta e co
 ### Tecnologia
 Feito utilizando Tauri, que faz a comunicação e preocupação com a geração da aplicação em desktop. Frontend utilizando React e a engine (motor) utilizando Python.
 
-<img src="https://github.com/ingrydf12/tormstructure-rpg/blob/rework/docs/projeto.png?raw=true">
+<img src="https://github.com/ingrydf12/tormstructure-rpg/blob/v1-build/docs/projeto.png?raw=true">
 <br>
 
 A estrutura do projeto se basea em 3/4 estrutura de dados* que foram definidas como:
@@ -22,7 +22,7 @@ A estrutura do projeto se basea em 3/4 estrutura de dados* que foram definidas c
 
 Foi feito um <b>mapa narrativo</b>, descrevendo as duas rotas possíveis a serem feitas, bem elementos mais fortes em alguns pontos.
 
-<img src="https://github.com/ingrydf12/tormstructure-rpg/blob/rework/docs/estrutura_daniel.png?raw=true">
+<img src="https://github.com/ingrydf12/tormstructure-rpg/blob/v1-build/docs/estrutura_daniel.png?raw=true">
 
 
 ## Recommended IDE Setup
