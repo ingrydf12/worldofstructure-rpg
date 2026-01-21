@@ -86,6 +86,19 @@ fn main() {
             send_to_engine,
             encerrar_jogo
         ])
-        .run(tauri::generate_context!())
-        .expect("Erro ao rodar aplicação Tauri");
+        .build(tauri::generate_context!())
+        .expect("Erro ao buildar aplicação Tauri")
+        .run(|_app_handle, event| {
+            match event {
+                tauri::RunEvent::ExitRequested { .. }
+                | tauri::RunEvent::Exit => {
+                    println!("[TAURI] App encerrando, finalizando Python sidecar");
+
+                    if let Some(child) = PYTHON_PROCESS.lock().unwrap().take() {
+                        child.kill().ok();
+                    }
+                }
+                _ => {}
+            }
+        });
 }
